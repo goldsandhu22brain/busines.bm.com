@@ -958,18 +958,60 @@
 /*** Membership ***/
 .membership-item {
     padding: 45px 30px;
-    color: #FFFFFF;
-     background-image: -moz-linear-gradient(120deg, #024b76 1%, #024b76 100%);
-    background-image: -webkit-linear-gradient(120deg, #024b76 1%, #024b76 100%);
-    background-image: -ms-linear-gradient(120deg, #024b76 1%, #024b76 100%);
+    color: #000;
+     background-image: -moz-linear-gradient(120deg, #f2e0df 1%, #f2e0df 100%);
+    background-image: -webkit-linear-gradient(120deg, #f2e0df 1%, #f2e0df 100%);
+    background-image: -ms-linear-gradient(120deg, #f2e0df 1%, #f2e0df 100%);
     box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+   border-radius: 1px 80px 1px;
+
 
 }
+
+.membership-item1 {
+    padding: 45px 30px;
+    color: #000;
+     background-image: -moz-linear-gradient(120deg, #4beef4 1%, #4beef4 100%);
+    background-image: -webkit-linear-gradient(120deg, #4beef4 1%, #4beef4 100%);
+    background-image: -ms-linear-gradient(120deg, #4beef4 1%, #4beef4 100%);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1px 80px 1px;
+	
+
+}
+.membership-item2 {
+    padding: 45px 30px;
+    color: #000;
+     background-image: -moz-linear-gradient(120deg, #7c1139 1%, #7c1139 100%);
+    background-image: -webkit-linear-gradient(120deg, #7c1139 1%, #fcb0cd 100%);
+    background-image: -ms-linear-gradient(120deg, #7c1139 1%, #7c1139 100%);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1px 80px 1px;
+
+}
+
+.membership-item3 {
+    padding: 45px 30px;
+    color: #000;
+     background-image: -moz-linear-gradient(120deg, #b5f58a 1%, #b5f58a 100%);
+    background-image: -webkit-linear-gradient(120deg, #b5f58a 1%, #b5f58a 100%);
+    background-image: -ms-linear-gradient(120deg, #b5f58a 1%, #b5f58a 100%);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1px 80px 1px;
+
+}
+
+.membership-item4 {
+    padding: 45px 30px;
+    color: #000;
+     background-image: -moz-linear-gradient(120deg, #f2b075 1%, #f2b075 100%);
+    background-image: -webkit-linear-gradient(120deg, #f2b075 1%, #f2b075 100%);
+    background-image: -ms-linear-gradient(120deg, #e4c2f3 1%, #f2b075 100%);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1px 80px 1px;
+
+}
+
 
 .membership-item img {
     position: absolute;
