@@ -964,6 +964,7 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+
 }
 
 .membership-item img {
@@ -1496,7 +1497,7 @@
 
 .demo{
     background: #fff;
-	
+	margin-top: -50px;
 }
 .top-icon,
 .bottom-icon{
@@ -2126,6 +2127,7 @@ font-family: 'Montserrat', sans serif;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Montserrat', sans serif;
+	
 }
 /************************Footer MAin End**********************/
 
@@ -3225,70 +3227,18 @@ textarea:focus {
   position: relative;
   z-index: 1;
   background-color: #ffaf02;
-  padding: 70px 15px; }
-  .newsletter-area .section-heading h6 {
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.5;
-    font-weight: 600;
-    color: #292929; }
-  .newsletter-area form {
-    position: relative;
-    z-index: 1;
-    width: 750px;
-    margin: auto; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .newsletter-area form {
-        width: 600px; } }
-    @media only screen and (max-width: 767px) {
-      .newsletter-area form {
-        width: 250px; } }
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-      .newsletter-area form {
-        width: 350px; } }
-    .newsletter-area form input {
-      position: relative;
-      z-index: 1;
-      height: 63px;
-      width: 100%;
-      background-color: #ffffff;
-      border: none;
-      padding: 0 40px;
-      font-style: italic; }
-      @media only screen and (max-width: 767px) {
-        .newsletter-area form input {
-          padding: 0 15px;
-          font-size: 11px; } }
-      @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .newsletter-area form input {
-          padding: 0 30px;
-          font-size: 12px; } }
-    .newsletter-area form button {
-      position: absolute;
-      width: 150px;
-      height: 63px;
-      top: 0;
-      right: 0;
-      z-index: 10;
-      font-size: 14px;
-      text-transform: uppercase;
-      color: #ffaf02;
-      font-family: "Open Sans", sans-serif;
-      line-height: 1;
-      font-weight: 700;
-      border: none;
-      cursor: pointer;
-      background-color: transparent;
-      -webkit-transition-duration: 500ms;
-      transition-duration: 500ms; }
-      .newsletter-area form button:hover {
-        color: #292929; }
-      @media only screen and (max-width: 767px) {
-        .newsletter-area form button {
-          width: 100px; } }
-      @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .newsletter-area form button {
-          width: 130px; } }
+  height: 430px;
 
+  padding: 70px 15px; }
+  
+  
+  .newsletter-area .section-heading h6 {
+    line-height: 1.5;
+    font-weight: 500;
+	  
+    color: #292929; }
+ 
+      
 
 
 /* :: 12.0 Breadcumb Area CSS */
@@ -3665,4 +3615,109 @@ textarea:focus {
     text-transform: uppercase;
 }
 
+
 /* how to play section css end */
+
+.section-services {
+	padding-top: 110px;
+	padding-bottom: 120px;
+	
+	background-color: #;
+	color: #fff;
+}
+
+.section-services .header-section {
+	margin-bottom: 35px;
+}
+
+.section-services .header-section .title {
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #000;
+}
+
+.section-services .header-section .title:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 1px;
+	background-color: #ffdd00;																													;
+}
+
+.section-services .header-section .title:after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 45px;
+	height: 3px;
+	background-color: #f45e29;
+}
+
+.section-services .header-section .title span {
+	color: #f45e29;
+}
+
+.section-services .header-section .description {
+	color: ##f45e29;
+}
+
+.section-services .single-service {
+	margin-top: 40px;
+	background-color: #000;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+	border-radius: 10px;
+}
+
+.section-services .single-service h3{
+	color: #fff;
+}
+
+.section-services .single-service .part-1 {
+	padding: 40px 40px 25px;
+	border-bottom: 2px solid ##f45e29;
+}
+
+.section-services .single-service .part-1 i {
+	margin-bottom: 25px;
+	font-size: 50px;
+	color: #f45e29;
+}
+
+.section-services .single-service .part-1 .title {
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 {
+	padding: 30px 40px 40px;
+}
+
+.section-services .single-service .part-2 .description {
+	margin-bottom: 22px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.section-services .single-service .part-2 a i {
+	margin-right: 10px;
+	color: #f70037;
+}
+
+
