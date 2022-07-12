@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #f45e29;
-    --light: #f45e29;
+    --primary: #ff0000;
+    --light: #ff0000;
     --dark: #ffffff;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .text-primary1  {
-	color: #f45e29;
+	color: #ff0000;
 }
 	
 	.text-primary3  {
@@ -237,7 +237,7 @@
 }
 
 #intro3 .intro3-info h2 span {
-  color: #f45e29;
+  color: #ff0000;
   font-size: 25px;
   font-weight: 700;
    margin-top: -250px;
@@ -510,22 +510,22 @@
 .btn.btn-primary
 {
     color: #FFFFFF;
-	background: #f45e29;
-	border-color:#f45e29;
+	background: #ff0000;
+	border-color:#ff0000;
 	border-radius: 50px;
 }
 
 .btn.btn-primary1
 {
-    color: #f45e29;
+    color: #ff0000;
 	background: #;
-	border-color:#f45e29;
+	border-color:#ff0000;
 	border-radius: 80px;
 }
 
 
 .btn.btn-secondary1 {
-    color: #f45e29;
+    color: #ff0000;
 }
 
 .btn-square {
@@ -569,7 +569,7 @@
 
 .navbar .navbar-brand img {
     max-height: 50px;
-	color: #f45e29;
+	color: #ff0000;
 }
 
 .navbar .dropdown-toggle::after {
@@ -1341,9 +1341,9 @@
 /* about section css start */
 .about-wrapper {
     padding: 120px 50px 200px 50px;
-    background-image: -moz-linear-gradient(120deg, #f45e29 1%, #7b19cb 100%);
-    background-image: -webkit-linear-gradient(120deg, #f45e29 1%, #7b19cb 100%);
-    background-image: -ms-linear-gradient(120deg, #f45e29 1%, #7b19cb 100%);
+    background-image: -moz-linear-gradient(120deg, #ff0000 1%, #7b19cb 100%);
+    background-image: -webkit-linear-gradient(120deg, #ff0000 1%, #7b19cb 100%);
+    background-image: -ms-linear-gradient(120deg, #ff0000 1%, #7b19cb 100%);
     box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -1551,7 +1551,7 @@
 .bottom-icon{
     display: block;
     font-size: 50px;
-    color: #f45e29;
+    color: #ff0000;
     text-align: center;
     margin: 0 auto;
 }
@@ -1559,7 +1559,7 @@
     padding: 0 40px;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to right ,#f45e29 ,#f45e29);
+    background: linear-gradient(to right ,#ff0000 ,#ff0000);
     color: #fdfeff;
     z-index: 1;
 }
@@ -2271,7 +2271,7 @@ font-family: 'Montserrat', sans serif;
 }
 
 #services .box:hover .title a {
-  color: #f45e29;
+  color: #ff0000;
 }
 
 #services .description {
@@ -2819,7 +2819,7 @@ textarea:focus {
   display: inline-block;
   min-width: 150px;
   height: 54px;
-  background-color: #f45e29;
+  background-color: #ff0000;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -2830,7 +2830,7 @@ textarea:focus {
   transition: all 500ms;
   font-weight: 700;
   text-transform: capitalize;
-  border: px solid #f45e29; }
+  border: px solid #ff0000; }
   .cryptos-btn.active, .cryptos-btn:hover, .cryptos-btn:focus {
     font-size: 15px;
     font-weight: 700;
@@ -3351,7 +3351,7 @@ margin-bottom: -80px;
   .guideline-content .single-step {
     padding: 35px 20px 30px;
     background-color: #ffffff;
-    border-bottom: 3px solid #f45e29;
+    border-bottom: 3px solid #ff0000;
     margin-bottom: 25px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
@@ -3366,7 +3366,7 @@ margin-bottom: -80px;
       font-size: 15px;
       font-weight: 900;
       line-height: 1;
-      color: #f45e29;
+      color: #ff0000;
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
     .guideline-content .single-step .step-content h6 {
@@ -3718,15 +3718,15 @@ margin-bottom: -80px;
 	transform: translateX(-50%);
 	width: 45px;
 	height: 3px;
-	background-color: #f45e29;
+	background-color: #ff0000;
 }
 
 .section-services .header-section .title span {
-	color: #f45e29;
+	color: #ff0000;
 }
 
 .section-services .header-section .description {
-	color: ##f45e29;
+	color: ##ff0000;
 }
 
 .section-services .single-service {
@@ -3742,13 +3742,13 @@ margin-bottom: -80px;
 
 .section-services .single-service .part-1 {
 	padding: 40px 40px 25px;
-	border-bottom: 2px solid ##f45e29;
+	border-bottom: 2px solid ##ff0000;
 }
 
 .section-services .single-service .part-1 i {
 	margin-bottom: 25px;
 	font-size: 50px;
-	color: #f45e29;
+	color: #ff0000;
 }
 
 .section-services .single-service .part-1 .title {
