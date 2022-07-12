@@ -121,7 +121,7 @@ img {
   font-weight: 200;
   line-height: 1.25;
   letter-spacing: -1px;
-  color: var(--color-pink-600);
+  color: var(--color-red-600);
   text-transform: uppercase;
   width: 280px;
   margin-left: 58px;
@@ -378,7 +378,7 @@ img1 {
             order: 3;
   }
   .header-item-left {
-	margin-left: 10px;
+	margin-left: 0px;
   }
   
    .brand img {
@@ -470,7 +470,7 @@ img1 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 78%;
+    width: 100%;
     height: 100%;
     z-index: 111;
     overflow: hidden;
