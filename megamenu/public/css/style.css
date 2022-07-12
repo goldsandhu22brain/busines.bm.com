@@ -320,7 +320,7 @@ img1 {
 }
 .header .menu > ul > li .menu-subs.menu-column-4 > .list-item .title {
   font-family: inherit;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1;
   padding: 0.75rem 0;
@@ -470,7 +470,7 @@ img1 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 75%;
+    width: 78%;
     height: 100%;
     z-index: 111;
     overflow: hidden;
