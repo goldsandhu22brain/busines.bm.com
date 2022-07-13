@@ -27,19 +27,19 @@
 
 #intro {
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   position: relative;
   background: #024b76 url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 #intro .intro-info h2 {
   color: #ffffff;
-  margin-top: 60px;
-  margin-bottom: 10px;
-  font-size: 30px;
-  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 800;
   font-family: 'Montserrat', sans serif;
 }
 
@@ -47,7 +47,7 @@
   color: #ffffff;
  font-family: 'Montserrat', sans serif;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
 }
 
