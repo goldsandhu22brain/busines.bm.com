@@ -1952,7 +1952,7 @@
 }
 
 h1 {
-            color:#ffffff;
+            color:#000;
         }
         .xyz {
             background-size: auto;
@@ -2730,6 +2730,10 @@ details > summary::-webkit-details-marker {
   
   .section-padding-100-8 {
   padding-top: 10px;
+  padding-bottom: 0; }
+  
+   .section-padding-100-9 {
+  padding-top: 280px;
   padding-bottom: 0; }
   
   
@@ -3943,3 +3947,11 @@ margin-bottom: -80px;
 	background: #fff;
 	padding: 50px 0px;
 }
+
+	span.underline-d{
+	background: url(../img/underline.png) no-repeat bottom center;
+	background-size: 100%;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
