@@ -2206,6 +2206,7 @@ font-family: 'Montserrat', sans serif;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Montserrat', sans serif;
+
 	
 }
 /************************Footer MAin End**********************/
@@ -3617,6 +3618,7 @@ margin-bottom: -80px;
     .play-elements {
         display: none;
     }
+.ritekhela-fixture-list,.ritekhela-playoff-staning { overflow: auto; }
 }
 
 @media (max-width: 1199px) {
@@ -3957,5 +3959,78 @@ margin-bottom: -80px;
 	padding-bottom: 10px;
 }
 
+.rounded-lg {
+  border-radius: 1rem !important;
+}
 
-background-size: 100% 100%}.card{padding: 30px 40px;margin-top: 60px;margin-bottom: 60px;border: none !important;box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)}.blue-text{color: #00BCD4}.form-control-label{margin-bottom: 0}input, textarea, button{padding: 8px 15px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300}input:focus, textarea:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}.btn-block{text-transform: uppercase;font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer}.btn-block:hover{color: #fff !important}button:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0}
+.text-small {
+  font-size: 0.9rem !important;
+  text-align: left;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+.ritekhela-client-detail tr > th {
+    color: #000;
+    border: none;
+    padding: 9px 0px 6px 30px;
+    text-align: left;
+	font-size: 20px;
+	border-bottom: 1px solid #000;
+	
+}
+.ritekhela-client-detail tr > td {
+    border: none;
+    border-bottom: 1px solid #ececec;
+    border-top: none;
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+    font-size: 22px;
+    color: #ff0000;
+	
+}
+.ritekhela-client-detail tr > th:last-child { padding: 9px 36px 6px 30px}
+.ritekhela-client-detail tr > td:last-child { padding: 14px 30px 10px 30px}
+.ritekhela-client-detail tr { border-bottom: 1px solid #ececec;}
+.ritekhela-client-detail tr:last-child { border-bottom: none;}
+.ritekhela-client-detail tr > td figure {
+    float: left;
+    margin: 6px 0px 0px;
+    width: 20px;
+    line-height: 1;
+}
+.ritekhela-client-detail tr > td figure img { border-radius: 100%;}
+.ritekhela-client-detail tr > td figure ~ .player-stats-text { margin: 4px 0px 0px 32px; line-height: 0.6;}
+.player-stats-text h6 {
+    font-size: 15px;
+    margin: 0px 0px 5px 0px;
+    line-height: 1;
+}
+.player-stats-text > span {
+    font-size: 10px;
+    color: #999999;
+}
+.ritekhela-client-detail tr > td > span {
+    color: #292c31;
+    line-height: 1;
+}
+.ritekhela-playoff-staning {
+    float: left;
+    width: 100%;
+    margin: 0px 0px 6px;
+}
+.ritekhela-playoff-staning h4 {
+    margin: 0px;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    padding: 19px 0px 26px 30px;
+    border-bottom: 1px solid #000;
+}
