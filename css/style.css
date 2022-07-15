@@ -3825,6 +3825,32 @@ margin-bottom: -80px;
 	padding:  50px 0px;
 }
 
+.home-individual1{
+	position: relative;
+	background: url(../img/overview-obj-1.png) no-repeat top center #f4c8e0;
+	background-attachment: fixed;
+	padding:  50px 0px;
+}
+.home-individual2{
+	position: relative;
+	background: url(../img/overview-obj-1.png) no-repeat top center #dbeeee;
+	background-attachment: fixed;
+	padding:  50px 0px;
+}
+.home-individual3{
+	position: relative;
+    background: linear-gradient(to top left, #66ffff 0%, #ffffff 100%);
+
+	background-attachment: fixed;
+	padding:  50px 0px;
+}
+.home-individual4{
+	position: relative;
+	    background: linear-gradient(to top left, #ffff99 0%, #ffffcc 100%);
+	background-attachment: fixed;
+	padding:  50px 0px;
+}
+
 .white-section{
 	padding: 50px 0px;
 }
@@ -3834,7 +3860,7 @@ margin-bottom: -80px;
 }
 .title-style-1 h6{
 	color: #f90457;
-	margin:  0px;
+	margin:  10px;
 }
 .title-style-1 h1{
 	font-weight: 700;
