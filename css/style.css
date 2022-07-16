@@ -1645,7 +1645,7 @@
 }
 @media only screen and (max-width: 767px){
     .testimonial{
-        text-align: center;
+        text-align: left;
     }
     .testimonial .pic{
         float: none;
