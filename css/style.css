@@ -1577,14 +1577,22 @@
 .demo{
     background: #fff;
 	margin-top: -50px;
+	
 }
-.top-icon,
+
 .bottom-icon{
     display: block;
     font-size: 50px;
     color: #ff0000;
     text-align: center;
-    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.top-icon {
+    display: block;
+    font-size: 50px;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .testimonial{
     padding: 0 40px;
@@ -1593,6 +1601,7 @@
     background: linear-gradient(to right ,#ff0000 ,#ff0000);
     color: #fdfeff;
     z-index: 1;
+	 height: 100%;
 }
 .testimonial:after{
     content: "";
@@ -2047,16 +2056,17 @@ padding: 15px;
     align-items: center;
 }
 
-.footer-main .featureItem .value .quantity {
+.footer-main .featureItem .value .img {
     font-weight: 800;
     font-size: 10px;
 font-family: 'Montserrat', sans serif;
     color: #fff;
     letter-spacing: -3px;
+
 	
 }
 .footer-main .featureItem  .value .unit {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     margin-left: 14px;
     letter-spacing: 0;
@@ -4139,6 +4149,13 @@ margin-bottom: -80px;
   color: #888;
   font-weight: 600;
   letter-spacing: 1px;
+  
+}
+
+.pricing-header td {
+ word-wrap: break-word;
+        word-break: break-all;
+		overflow-wrap: break-word;
 }
 
 .pricing-features {
@@ -4191,3 +4208,18 @@ margin-bottom: -80px;
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
+
+
+.quick-contact-icons .icon {
+  margin-right: 10px; }
+  .header-top .quick-contact-icons .icon span {
+    font-size: 40px;
+    line-height: 0; }
+
+.quick-contact-icons .text .h6 {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 10; }
+
+.quick-contact-icons .text .caption-text {
+  font-size: 1rem; }
